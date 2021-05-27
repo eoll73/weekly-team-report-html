@@ -1,0 +1,24 @@
+.navbar{
+    height: 100%;
+}
+
+.nav-link{ 
+    width: $nav-link-width;
+    height:  $nav-link-height;
+    color:$gray-100;
+    text-align: start;
+    margin-bottom: 5px;
+    &:hover{
+        font-weight: 700;
+        background-color: $dark;
+        border-radius: 5px;
+        color: $gray-100;
+    }
+    &:focus{
+        color: $gray-100;
+    }
+}
+.nav-link.active{
+            background-color: $dark;
+        border-radius: 5px;
+}

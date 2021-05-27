@@ -1,6 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "./variables";
-
-body{
-    font-size: 120%;
+@import "./nav";
+html,body{
+    height: 100vh;
+}
+.container-fluid{
+    height: 100%;
 }
